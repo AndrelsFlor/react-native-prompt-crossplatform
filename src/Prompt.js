@@ -96,8 +96,8 @@ Prompt.propTypes = {
 };
 
 Prompt.defaultProps = {
-  submitButtonText: 'submit',
-  cancelButtonText: 'cancel',
+  submitButtonText: 'Conectar',
+  cancelButtonText: 'Cancelar',
   defaultValue: '',
   errorText: '',
   primaryColor: '#f13a59',
