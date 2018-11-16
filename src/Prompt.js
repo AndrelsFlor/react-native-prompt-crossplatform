@@ -27,12 +27,11 @@ const Prompt = ({
 }) => (
 
   <Modal
-    onRequestClose={() => true}
     animationType={promptAnimation}
     hardwareAccelerated
     transparent
     visible={isVisible}
-    onRequestClose={onBackButtonPress}
+    onRequestClose={() => true}
   >
     <View style={styles.container}>
       <View style={[styles.promptBox, promptBoxStyle]}>
