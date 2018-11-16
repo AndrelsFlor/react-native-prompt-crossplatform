@@ -27,6 +27,7 @@ const Prompt = ({
 }) => (
 
   <Modal
+    onRequestClose={() => true}
     animationType={promptAnimation}
     hardwareAccelerated
     transparent
